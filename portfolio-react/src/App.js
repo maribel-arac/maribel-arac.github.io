@@ -5,7 +5,7 @@ import './css/style.css';
 function App() {
   return (
     <div className="App">
-      <nav>
+      <nav> 
         <ul className="nav-menu">
           <li><a className="nav-menu__link" href="#"> 🏠 Home </a></li>
           <li><a className="nav-menu__link" href="#"> 😊 About</a></li>
