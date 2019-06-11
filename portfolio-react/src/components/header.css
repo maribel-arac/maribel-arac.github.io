@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
+
+header {
+	margin: 0 auto;
+	text-align: center;
+	padding-top: 200px;
+}
+
+header h1 {
+	margin: 0;
+	font-size: 3rem;
+	color: blue;
+}
+
+header p {
+	font-size: 1.75rem;
+	font-weight: 700;
+	font-style: italic;
+	color: blue;
+	font-family: 'Poppins', sans-serif;
+}

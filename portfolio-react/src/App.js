@@ -1,21 +1,23 @@
-import React from 'react';
+import React, {Component} from 'react';
+import Navbar from './components/navbar';
+import Header from './components/header';
+import About from './components/about';
+import Projects from './components/projects';
 import './css/style.css';
 
 
-function App() {
-  return (
-    <div className="App">
-      <nav> 
-        <ul className="nav-menu">
-          <li><a className="nav-menu__link" href="#"> 🏠 Home </a></li>
-          <li><a className="nav-menu__link" href="#"> 😊 About</a></li>
-          <li><a className="nav-menu__link" href="#"> 💼 Projects</a></li>
-          <li><a className="nav-menu__link" href="#"> 🔧 Skills</a></li>
-          <li><a className="nav-menu__link" href="#">📞 Contact</a></li>
-        </ul>
-      </nav>
-    </div>
-  );
+class App extends Component {
+  render(){
+    return (
+      <div>
+        <Navbar />
+        <Header title="Maribel Araiza-Cañedo" />
+        <About />
+        <Projects />
+      </div>
+      ); 
+
+  }
 }
 
 export default App;
