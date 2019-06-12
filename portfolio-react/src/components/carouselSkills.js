@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import { Slide } from 'react-slideshow-image';
 import pokemon from '../images/pokemon.jpg';
 import paws from '../images/paws.jpg';
-import seafood from '../images/seafood.jpg';
 import './carouselProjects.css';
 
 const properties = {
@@ -12,7 +11,7 @@ const properties = {
     indicators: true,
     arrows: true
 }
-const CarouselProjects = () => {
+const CarouselSkills = () => {
 	return (
 		<div className="containerSlide">
 			<Slide {...properties}>
@@ -26,15 +25,10 @@ const CarouselProjects = () => {
 						<img src={paws} alt="paws" />
 					</div>
 				</div>
-				<div className="each-slide">
-					<div>
-						<img src={seafood} alt="seafood" />
-					</div>
-				</div>
 			</Slide> 
 
 		</div>
 		)
 }
 
-export default CarouselProjects;
+export default CarouselSkills;
