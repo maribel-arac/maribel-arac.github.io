@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
-import CarouselProjects from '../components/carouselProjects';
+import CarouselSkills from '../components/carouselSkills';
 
-class Projects extends Component {
+class Skills extends Component {
 
 
 	render() {
@@ -9,11 +9,11 @@ class Projects extends Component {
 			<div className="container col-md-12">
 				<div className="row">
 					<div className="col col-md-6">
-						<h1>Projects </h1>
-						<p> Some of them were created with JS, React and bootstrap </p>
+						<CarouselSkills />
 					</div>
 					<div className="col col-md-6">
-						<CarouselProjects />
+						<h1>Skills </h1>
+						<p> I learnt about technical and soft skills </p>
 					</div>
 				</div>
 
@@ -23,4 +23,4 @@ class Projects extends Component {
 	}
 }
 
-export default Projects;
+export default Skills;
