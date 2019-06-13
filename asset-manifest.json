@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.da831f68.chunk.css",
+    "main.js": "/portfolio/static/js/main.fa482b79.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.fa482b79.chunk.js.map",
+    "runtime~main.js": "/portfolio/static/js/runtime~main.f308c8e6.js",
+    "runtime~main.js.map": "/portfolio/static/js/runtime~main.f308c8e6.js.map",
+    "static/css/2.f65ab6ef.chunk.css": "/portfolio/static/css/2.f65ab6ef.chunk.css",
+    "static/js/2.6cba5eff.chunk.js": "/portfolio/static/js/2.6cba5eff.chunk.js",
+    "static/js/2.6cba5eff.chunk.js.map": "/portfolio/static/js/2.6cba5eff.chunk.js.map",
+    "index.html": "/portfolio/index.html",
+    "precache-manifest.fa52a34b49fd12b8e48b93928842306b.js": "/portfolio/precache-manifest.fa52a34b49fd12b8e48b93928842306b.js",
+    "service-worker.js": "/portfolio/service-worker.js",
+    "static/css/2.f65ab6ef.chunk.css.map": "/portfolio/static/css/2.f65ab6ef.chunk.css.map",
+    "static/css/main.da831f68.chunk.css.map": "/portfolio/static/css/main.da831f68.chunk.css.map",
+    "static/media/back-img.jpg": "/portfolio/static/media/back-img.dd5f0607.jpg",
+    "static/media/brand.png": "/portfolio/static/media/brand.2c6060dd.png",
+    "static/media/paws.jpg": "/portfolio/static/media/paws.cf97e412.jpg",
+    "static/media/pokemon.jpg": "/portfolio/static/media/pokemon.5e639702.jpg",
+    "static/media/seafood.jpg": "/portfolio/static/media/seafood.16546b0c.jpg"
+  }
+}
