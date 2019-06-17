@@ -16,9 +16,11 @@ render() {
 
 return (
 		<nav className ="nav-menu sticky-top"> 
+		<div>
 	        <ul >
 	          {navLinks}
 	        </ul>
+	    </div>
     	</nav>
 	)
 }

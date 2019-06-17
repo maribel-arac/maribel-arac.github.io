@@ -1,12 +1,12 @@
 import React, {Component} from 'react';
-import Background from '../images/back-img.jpg';
-import './header.css';
+import Background from '../images/bg-image.JPG';
+import '../css/header.css';
 
 
 
 const myStyles = {
 	backgroundImage: `url(${Background})`,
-	height: '50vh',
+	height: '60vh',
 	backgroundSize: 'cover'
 }
 
@@ -19,7 +19,7 @@ class Header extends Component {
 		return (
 			<header style={myStyles}>
 				<h1>{this.props.title}</h1>
-				<p>Frontend developer</p>
+				<p>Frontend developer & Scrum Master Certified</p>
 			</header>
 
 			);

@@ -1,8 +1,8 @@
-import React, { Component } from 'react';
+import React from 'react';
 import { Slide } from 'react-slideshow-image';
 import pokemon from '../images/pokeball.jpeg';
-import paws from '../images/paws.jpg';
-import './carouselProjects.css';
+import paws from '../images/paws.png';
+import '../css/carouselProjects.css';
 
 const properties = {
 	duration: 4000,
