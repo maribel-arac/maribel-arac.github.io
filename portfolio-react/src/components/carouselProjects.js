@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { Slide } from 'react-slideshow-image';
-import pokemon from '../images/pokemon.jpg';
+import pokemon from '../images/pokeball.jpeg';
 import paws from '../images/paws.jpg';
 import seafood from '../images/seafood.jpg';
 import './carouselProjects.css';
