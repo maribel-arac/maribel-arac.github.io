@@ -1,0 +1,22 @@
+nav {
+	display: flex;
+	justify-content: center;
+	background-image: url('../images/bg-image.JPG');
+	background-size: cover;
+	height: 5vh;
+}
+
+ul {
+	list-style: none;
+}
+
+nav ul li {
+	display: inline-block;
+	margin-right: 50px;
+}
+
+nav ul li a {
+	color: #fff;
+	text-decoration: none;
+	font-size: 19px;
+}

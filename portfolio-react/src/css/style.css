@@ -12,24 +12,3 @@ code {
 }
 
 
-
-nav {
-	display: flex;
-	justify-content: center;
-	background-color: #F7F783;
-}
-
-ul {
-	list-style: none;
-}
-
-nav ul li {
-	display: inline-block;
-	margin-right: 35px;
-}
-
-nav ul li a {
-	color: green;
-	text-decoration: none;
-}
-

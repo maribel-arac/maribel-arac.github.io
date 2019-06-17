@@ -1,0 +1,15 @@
+.contactBorder{
+	background-color: #86B3D1;
+}
+
+.img-fluid {
+	width: 45px;
+	height: 50px;
+}
+
+ .about {
+ 	font-size: 19px;
+ 	text-align: justify;
+ 	padding-right: 90px;
+ 	color: white;
+ }
