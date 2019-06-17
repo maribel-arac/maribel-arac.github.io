@@ -1,0 +1,15 @@
+.aboutBorder{
+	background-color: #99CED3;
+}
+
+img {
+	width: 450px;
+	height: 400px;
+}
+
+ .about {
+ 	font-size: 19px;
+ 	padding-top: 100px;
+ 	text-align: justify;
+ 	padding-right: 90px;
+ }
