@@ -11,5 +11,8 @@ img {
  	font-size: 19px;
  	padding-top: 100px;
  	text-align: justify;
- 	padding-right: 90px;
+ }
+
+.about p {
+ 	color: #5F6366;
  }
