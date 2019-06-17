@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import Brand from '../images/brand.png';
 import '../css/contact.css';
 
 class Contact extends Component {
