@@ -17,7 +17,7 @@ class Header extends Component {
 
 		
 		return (
-			<header style={myStyles}>
+			<header id="home" style={myStyles}>
 				<h1>{this.props.title}</h1>
 				<p>Frontend developer & Scrum Master Certified</p>
 			</header>
