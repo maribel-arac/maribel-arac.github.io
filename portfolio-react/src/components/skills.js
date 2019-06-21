@@ -1,13 +1,13 @@
 import React, { Component } from 'react';
 import CarouselSkills from '../components/carouselSkills';
-import '../css/projects.css';
+import '../css/skills.css';
 
 class Skills extends Component {
 
 
 	render() {
 		return(
-			<div className="container col-md-12 skillsBoarder">
+			<div id="skills" className="container col-md-12 skillsBoarder">
 				<div className="row">
 					<div className="col col-md-6">
 						<CarouselSkills />

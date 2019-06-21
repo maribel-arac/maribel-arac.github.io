@@ -6,7 +6,7 @@ class Contact extends Component {
 
 	render() {
 		return(
-			<div className="container col-md-12 contactBorder">
+			<div  id="contact" className="container col-md-12 contactBorder">
 				<div className="row">
 					<div className="col col-md-6">
 						<h1 className="name">Contact </h1>
@@ -14,11 +14,11 @@ class Contact extends Component {
 					</div>
                         <div className="col col-lg-6">
                             <a className="bg-transparent style-btn no-gutters" target="_blank" href="https://github.com/maribel-arac">
-                                <img src="https://image.flaticon.com/icons/png/512/25/25657.png" class="img-fluid" alt="Responsive image" />
+                                <img src="https://image.flaticon.com/icons/png/512/25/25657.png" class="img-fluid" alt="Responsive Github" />
                                 <h3 className="text-center text">GitHub</h3>
                             </a>
                             <a className="bg-transparent style-btn no-gutters" target="_blank" href="https://www.linkedin.com/in/maribel-araiza-cañedo/">
-                                <img src="https://image.flaticon.com/icons/png/512/61/61109.png" className="img-fluid" alt="Responsive image" />
+                                <img src="https://image.flaticon.com/icons/png/512/61/61109.png" className="img-fluid" alt="Responsive Linkedin" />
                                 <h3 className="text-center text">Linkedin</h3>
                             </a>
                         </div>
