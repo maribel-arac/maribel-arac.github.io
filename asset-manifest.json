@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.6f8b6c0d.chunk.css",
+    "main.js": "/portfolio/static/js/main.20b0ef36.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.20b0ef36.chunk.js.map",
+    "runtime~main.js": "/portfolio/static/js/runtime~main.f308c8e6.js",
+    "runtime~main.js.map": "/portfolio/static/js/runtime~main.f308c8e6.js.map",
+    "static/css/2.f65ab6ef.chunk.css": "/portfolio/static/css/2.f65ab6ef.chunk.css",
+    "static/js/2.1c595fc4.chunk.js": "/portfolio/static/js/2.1c595fc4.chunk.js",
+    "static/js/2.1c595fc4.chunk.js.map": "/portfolio/static/js/2.1c595fc4.chunk.js.map",
+    "index.html": "/portfolio/index.html",
+    "precache-manifest.5d161e30b7a4b348f8c3349affe23b23.js": "/portfolio/precache-manifest.5d161e30b7a4b348f8c3349affe23b23.js",
+    "service-worker.js": "/portfolio/service-worker.js",
+    "static/css/2.f65ab6ef.chunk.css.map": "/portfolio/static/css/2.f65ab6ef.chunk.css.map",
+    "static/css/main.6f8b6c0d.chunk.css.map": "/portfolio/static/css/main.6f8b6c0d.chunk.css.map",
+    "static/media/bg-image.JPG": "/portfolio/static/media/bg-image.c9c9da16.JPG",
+    "static/media/brand.png": "/portfolio/static/media/brand.87fc3df0.png",
+    "static/media/paws.png": "/portfolio/static/media/paws.a05f321b.png",
+    "static/media/pokeball.jpeg": "/portfolio/static/media/pokeball.94790f28.jpeg",
+    "static/media/seafood.jpg": "/portfolio/static/media/seafood.63240b82.jpg"
+  }
+}
