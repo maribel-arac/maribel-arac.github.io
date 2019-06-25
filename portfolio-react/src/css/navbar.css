@@ -1,12 +1,12 @@
-nav {
+/*nav {
 	display: flex;
 	justify-content: center;
 	background-image: url('../images/bg-image.JPG');
 	background-size: cover;
 	height: 5vh;
-}
+}*/
 
-ul {
+/*ul {
 	list-style: none;
 }
 
@@ -16,7 +16,27 @@ nav ul li {
 }
 
 nav ul li a {
-	color: #fff;
 	text-decoration: none;
 	font-size: 19px;
+}*/
+
+@import url('https://fonts.googleapis.com/css?family=Rock+Salt&display=swap');
+
+.name {
+	font-family: 'Rock Salt', cursive;
+	font-size: 20px;
+	color: white;
+	margin-left: 40px;
+	margin-top: 5px;
+}
+
+.text {
+	font-size: 19px;
+	text-align: center;
+	background-color: #2094F9;
+}
+
+a.nav-link {
+	color: white;
+	margin-right: 50px;
 }
