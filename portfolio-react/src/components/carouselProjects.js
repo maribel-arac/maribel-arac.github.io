@@ -7,7 +7,7 @@ import '../css/carouselProjects.css';
 
 const CarouselProjects = () => {
 	return (
-			<div className="bd-example carousel">
+			<div className="bd-example carousel-size">
 			  <div id="carouselExampleCaptions" className="carousel slide" data-ride="carousel">
 			    <ol className="carousel-indicators">
 			      <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
@@ -16,19 +16,19 @@ const CarouselProjects = () => {
 			    </ol>
 			    <div className="carousel-inner">
 			      <div className="carousel-item active">
-			        <img src={paws} className="d-block w-100 paws" alt="paws" />
+			        <img src={paws} className="d-block w-100" alt="paws" />
 			        <div className="carousel-caption d-none d-md-block">
-			          <h5>Paws</h5>
-			          <p>Social network about lost pets. Filling a form in order to find your pet</p>
-			          <p>TOOLS: React.js, Bootstrap, Firebase</p>
+			          <h4 className= "paws-color">Paws</h4>
+			          <p className="paws-color">Social network about lost pets. Filling a form about your pet and also include a picture in order to find it. </p>
+			          <p className="paws-color">TOOLS: React.js, Bootstrap, Firebase</p>
 			        </div>
 			      </div>
 			      <div className="carousel-item">
-			        <img src={seafood} className="d-block w-100 seafood" alt="seafood" />
+			        <img src={seafood} className="d-block w-100" alt="seafood" />
 			        <div className="carousel-caption d-none d-md-block">
-			          <h5>Mariscos Selectos Perico</h5>
-			          <p>Choosing from two menus, taking orders and deleting products</p>
-			          <p>TOOLS: Firebase, React.js, bootstrap</p>
+			          <h5 className="seafood-color">Mariscos Selectos Perico</h5>
+			          <p className="seafood-color">Choosing from two menus, taking orders and deleting products</p>
+			          <p className="seafood-color">TOOLS: Firebase, React.js, bootstrap</p>
 			        </div>
 			      </div>
 			      <div className="carousel-item">

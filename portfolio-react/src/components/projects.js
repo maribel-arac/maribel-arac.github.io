@@ -10,8 +10,8 @@ class Projects extends Component {
 			<div id="projects" className="container col-md-12 projectsBoarder ">
 				<div className="row">
 					<div className="col col-md-6 content">
-						<h1>Projects </h1>
-						<p> Some of them were created with JS, React and bootstrap </p>
+						<h1 className="text-margin">Projects </h1>
+						<p className="text-margin">You can have a look at some of my projects which I used different tools and covered various topics </p>
 					</div>
 					<div className="col col-md-6">
 						<CarouselProjects />

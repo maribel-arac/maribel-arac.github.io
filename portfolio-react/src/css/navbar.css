@@ -4,7 +4,7 @@
 	font-family: 'Rock Salt', cursive;
 	font-size: 22px;
 	color: white;
-	margin-left: 40px;
+	margin-left: 20px;
 	margin-top: 5px;
 }
 
@@ -17,4 +17,8 @@
 a.nav-link {
 	color: white;
 	margin-right: 50px;
+}
+
+.margin-btn{
+	margin-right: 20px;
 }
