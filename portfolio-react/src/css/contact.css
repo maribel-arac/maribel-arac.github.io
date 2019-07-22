@@ -1,5 +1,5 @@
 .contactBorder{
-	background-color: #86B3D1;
+	background-color: #42A5F5;
 }
 
 .img-fluid {
@@ -12,4 +12,8 @@
  	text-align: justify;
  	padding-right: 90px;
  	color: white;
+ }
+
+ .contact {
+ 	font-size: 40px;
  }

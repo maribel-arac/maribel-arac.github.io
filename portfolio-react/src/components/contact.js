@@ -9,7 +9,7 @@ class Contact extends Component {
 			<div  id="contact" className="container col-md-12 contactBorder">
 				<div className="row">
 					<div className="col col-md-6">
-						<h1 className="name">Contact </h1>
+						<h1 className="contact">Contact </h1>
 						<p className="content"> Are you interested to work with me? Check out my social networks </p>
 					</div>
                         <div className="col col-lg-6">

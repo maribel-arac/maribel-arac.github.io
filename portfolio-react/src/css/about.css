@@ -1,19 +1,27 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+
 .aboutBorder{
-	background-color: #99CED3;
+	background-color: #BBDEFB;
+	background-color: ;
 	height: 500px;
 }
 
 img {
-	width: 450px;
-	height: 400px;
+	width: 380px;
+	height: 420px;
+	margin-left: 15px;
 }
 
  .about {
  	font-size: 19px;
  	padding-top: 100px;
  	text-align: justify;
+ 	font-family: 'Montserrat', sans-serif;
  }
 
 .about p {
  	color: #5F6366;
+ 	font-family: 'Montserrat', sans-serif;
  }
+
+ 
