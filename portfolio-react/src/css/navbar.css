@@ -14,11 +14,11 @@
 	background-color: #2094F9;
 }
 
+.margin-btn{
+	margin-right: 20px;
+}
+
 a.nav-link {
 	color: white;
 	margin-right: 50px;
-}
-
-.margin-btn{
-	margin-right: 20px;
 }

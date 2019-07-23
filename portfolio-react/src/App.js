@@ -11,7 +11,7 @@ import './css/style.css';
 class App extends Component {
   render(){
     return (
-      <div>
+      <div className="app">
         <Navbar />
         <Header title="Maribel Araiza-Cañedo" />
         <About />
