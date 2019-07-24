@@ -2,3 +2,19 @@
 	background-color: #90CAF9;
 	height: 450px;
 }
+
+@media (min-width: 300px) and (max-width: 480px) {
+  
+ ul li {
+ 	font-size: 10px;
+ }
+
+ .text {
+ 	font-size: 12px;
+ }
+
+ .size {
+ 	font-size: 20px;
+ }
+  
+}

@@ -13,6 +13,18 @@
  	margin-top: 20px;
  }
 
- h1 {
- 	font-size: 30px;
+
+ @media (min-width: 300px) and (max-width: 480px) {
+ 	.text-size {
+ 		font-size: 11px;
+ 		text-align: center;
+ 		
+ 	}
+
+ 	.content {
+ 		padding-top: 15px;
+ 	}
+
+
+
  }
