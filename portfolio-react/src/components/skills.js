@@ -8,14 +8,14 @@ class Skills extends Component {
 		return(
 			<div id="skills" className="container col-md-12 skillsBoarder">
 				<div className="col-md-12 text-center">
-					<p className="size">Skills</p>
+					<p className="title-size">Skills</p>
 				</div>
 					<div className="row justify-content-center ">
 							<div className="card col-md-4 text-center bg-transparent" >
-							  <div className="card-header text">
+							  <div className="card-header text ">
 							    SOFT
 							  </div>
-							  <ul className="list-group list-group-flush ">
+							  <ul className="list-group list-group-flush  ">
 							    <li className="list-group-item bg-transparent"><i className="fas fa-bezier-curve"></i> Team work</li>
 							    <li className="list-group-item bg-transparent"> <i className="far fa-calendar-alt"></i> Organization</li>
 							    <li className="list-group-item bg-transparent"><i className="far fa-comments"></i> Problem solving</li>
@@ -25,6 +25,7 @@ class Skills extends Component {
 							    <li className="list-group-item bg-transparent"><i className="fas fa-book"></i> Self-learner</li>
 							  </ul>
 							</div>
+						
 
 							<div className="card col-md-4  text-center bg-transparent" >
 							  <div className="card-header text">

@@ -21,10 +21,14 @@
 
 @media (min-width: 300px) and (max-width: 480px) {
 	.carousel-size {
-		width: 200px;
-		height: 200px;
+		width: 230px;
+		height: 230px;
 		text-align: center;
-		margin-top: 5px;
+	}
+
+	h4 .paws-color	 {
+		font-size: 5px;
+		color: black;
 	}
 
 }

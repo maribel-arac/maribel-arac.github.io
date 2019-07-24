@@ -4,17 +4,22 @@
 }
 
 @media (min-width: 300px) and (max-width: 480px) {
-  
+  .skillsBoarder {
+  	height: 710px;
+  }
+
+  .text {
+ 	font-size: 12px;
+ }
+
+ .title-size {
+ 	font-size: 20px;
+ } 
+
  ul li {
  	font-size: 10px;
  }
 
- .text {
- 	font-size: 12px;
- }
-
- .size {
- 	font-size: 20px;
- }
+ 
   
 }

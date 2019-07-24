@@ -1,5 +1,6 @@
 .contactBorder{
 	background-color: #42A5F5;
+	height: 200px;
 }
 
 .img-fluid {
@@ -16,4 +17,14 @@
 
  .contact {
  	font-size: 40px;
+ }
+
+ @media (min-width: 300px) and (max-width: 480px) {
+ 	.contact {
+ 		font-size: 20px;
+ 	}
+
+ 	.content {
+ 		font-size: 11px;
+ 	}
  }

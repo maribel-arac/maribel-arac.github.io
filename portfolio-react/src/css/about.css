@@ -1,8 +1,15 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
 
+.container{
+	max-width: 100%
+}
+
 .aboutBorder{
 	background-color: #BBDEFB;
-	height: 500px;
+	height: 450px;
+	margin: 0;
+	margin-right: 0;
+	padding: 0;
 }
 
  .about {
@@ -23,23 +30,25 @@
 	margin-left: 15px;
 }
 
- @media (min-width: 300px) and (max-width: 480px) {
+ @media (min-width: 300px) and (max-width: 355px) {
  	
  	.about {
  		padding-top: 0px;
- 		margin-left: 80px;
+ 		margin-left: 50px;
+
  		
  	}
  	
  	.about p {
- 		font-size: 10px;
+ 		font-size: 11px;
  		text-align: center;
- 		margin-left: 10%;
+ 		margin-right: 48px;
 
  	}
 
  	h1 {
- 		margin-left: 20px;
+ 		margin-left: 68px;
+ 		color: black;
  	}
 
  	img {
@@ -50,22 +59,23 @@
  	}
  }
 
- @media (min-width: 481px) and (max-width: 767px) {
+ @media (min-width: 356px) and (max-width: 767px) {
 
  	.aboutBorder {
- 			height: 520px;
+ 			height: 420px;
  			width: 100%;
  
  	}
 
  	.about p {
- 		font-size: 13px;
+ 		font-size: 11px;
+ 		margin-right: 30px;
  	}
 
  	img {
- 		width: 250px;
- 		height: 250px;
- 		margin-top: 105px; 
+ 		width: 150px;
+ 		height: 150px;
+ 		margin-top: 130px; 
  	}
   
 }
@@ -74,6 +84,7 @@
 
 	.about p {
 		font-size: 16px;
+		margin-right: 50px;
 	}
 
 	img {
@@ -89,6 +100,10 @@
 	.about p {
   	font-size: 17px;
   }
+  	.aboutBorder {
+  		height: 500px;
+  	}
+
   	img {
   		width: 250px;
   		height: 250px;

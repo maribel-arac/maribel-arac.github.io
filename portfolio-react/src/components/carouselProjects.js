@@ -35,7 +35,7 @@ const CarouselProjects = () => {
 			        <img src={pokemon} className="d-block w-100" alt="pokemon" />
 			        <div className="carousel-caption d-none d-md-block">
 			          <h5>PokeHack</h5>
-			          <p>151 Pokemon filtered and sorted alphabetically and get to know their basic information, such as: name, type and weakenesses</p>
+			          <p>151 Pokemon sorted alphabetically and get to know their basic information, such as: name, type & weakenesses</p>
 			          <p>TOOLS: Javascript, CSS3, HTML5</p>
 			        </div>
 			      </div>
