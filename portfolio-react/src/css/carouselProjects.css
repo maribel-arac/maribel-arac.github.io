@@ -14,24 +14,49 @@
 	background-color: rgb(238,283,293, 0.6);
 }
 
-.text-margin{
+.text-margin {
 	margin-left: 80px;
 }
 
 
 @media (min-width: 300px) and (max-width: 480px) {
 	.carousel-size {
-		width: 230px;
-		height: 230px;
+		width: 250px;
+		height: 250px;
 		text-align: center;
 	}
 
-	h4 .paws-color	 {
-		font-size: 5px;
+	.carousel-item {
+		height: 30vh;
+		background: no-repeat center;
+	}
+
+	.carousel-caption{
+		bottom: 10px;
+	}
+
+	.carousel-caption h4 {
+		font-size: 17px;
+		text-transform: uppercase;
+		letter-spacing: 2px;
 		color: black;
 	}
 
+	.carousel-caption p {
+		margin: auto;
+		font-size: 10px;
+		width: 70%;
+	}
+
+	.carousel-indicators li {
+		 width: 7px;
+		 height: 7px;
+		 border-radius: 100%;
+		}
+
+
 }
+
 
 @media (min-width: 481px) and (max-width: 767px) {
 

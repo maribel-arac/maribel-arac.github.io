@@ -7,17 +7,12 @@ class Projects extends Component {
 
 	render() {
 		return(
-			<div id="projects" className="container col-lg-12">
+			<div id="projects" className="container col-xl-12">
 				<div className="row">
-					<div className="col col-md-6 content">
-						<h1 className="text-margin">Projects </h1>
-						<p className="text-margin text-size">You can have a look at some of my projects which I used different tools and covered various topics </p>
-					</div>
-					<div className="col col-md-6 ">
+					<div className="col col-md-6 col-xl-12 paddingBorder ">
 						<CarouselProjects />
 					</div>
 				</div>
-
 			</div>
 
 		);

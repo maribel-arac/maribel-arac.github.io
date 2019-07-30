@@ -95,11 +95,12 @@
 	}
 }
 
-@media (min-width: 1025px) and (max-width: 1280px) {
+@media (min-width: 1025px)  {
 
 	.about p {
   	font-size: 17px;
-  }
+  	}
+
   	.aboutBorder {
   		height: 500px;
   	}
@@ -110,5 +111,5 @@
   		margin-top: 90px;
   		margin-left: 50px;
   	}
-
+ 
 }
