@@ -14,7 +14,7 @@
 
  .about {
  	font-size: 19px;
- 	padding-top: 100px;
+ 	/*padding-top: 100px;*/
  	text-align: justify;
  	font-family: 'Montserrat', sans-serif;
  }
@@ -28,6 +28,8 @@
 	width: 380px;
 	height: 420px;
 	margin-left: 15px;
+	margin-left: auto;
+ 	margin-right: auto;
 }
 
  @media (min-width: 300px) and (max-width: 355px) {
@@ -56,6 +58,7 @@
  		height: 150px;
  		margin-left: 30%;
  		margin-top: 35px;
+
  	}
  }
 
@@ -72,10 +75,12 @@
  		margin-right: 30px;
  	}
 
- 	img {
+ 	.image {
  		width: 150px;
  		height: 150px;
- 		margin-top: 130px; 
+ 		margin-top: 10px; 
+ 		margin-left: auto;
+ 		margin-right: auto;
  	}
   
 }

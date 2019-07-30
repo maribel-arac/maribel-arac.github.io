@@ -9,10 +9,10 @@ class About extends Component {
 		return(
 			<div id="about" className="container navbar-expand-lg col-xl-12 aboutBorder">
 				<div className="row">
-					<div className="col col-md-6 col-xl-12">
+					<div className="col col-md-6 col-lg-6 col-sm-12 col-12">
 						<img className="image" src={Brand} alt="brand"/>
 					</div>
-					<div className="col col-md-6 col-xl-12 about">
+					<div className="col col-md-6 col-lg-6 col-sm-12 col-12 about">
 						<h1>About me </h1>
 						<p> I from the Jalisco coast, I adore seafood and tacos.
 						I love learning languages and that's why I changed to the programming path.

@@ -7,9 +7,9 @@ class Projects extends Component {
 
 	render() {
 		return(
-			<div id="projects" className="container col-xl-12">
+			<div id="projects" className="container col-md-12 col-xl-12 col-lg-12">
 				<div className="row">
-					<div className="col col-md-6 col-xl-12 paddingBorder ">
+					<div className="col col-md-12 col-xl-12 col-lg-12 paddingBorder ">
 						<CarouselProjects />
 					</div>
 				</div>
