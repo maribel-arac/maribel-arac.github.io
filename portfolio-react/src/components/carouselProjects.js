@@ -7,7 +7,7 @@ import '../css/carouselProjects.css';
 
 const CarouselProjects = () => {
 	return (
-			<div className="bd-example carousel-size">
+			<div className="bd-example carousel-size col-12 col-sm-12 col-md-12 col-lg-12">
 			  <h1 className="title">Projects </h1>
 			  <div id="carouselExampleCaptions" className="carousel slide" data-ride="carousel">
 			    <ul className="carousel-indicators">
@@ -16,29 +16,29 @@ const CarouselProjects = () => {
 			      <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
 			    </ul>
 			    <div className="carousel-inner">
-			      <div className="carousel-item active col-lg-12" data-interval="3000">
+			      <div className="carousel-item active " >
 			      	<a target="_blank" href="https://maribel-arac.github.io/paws-react/#/" >
-			        <img src={paws} className="d-block w-100 col-lg-8 img-fluid img-position" alt="paws" /> </a>
-			        <div className="carousel-caption  d-md-block col-lg-8 content">
+			        <img src={paws} className="d-block w-100  img-fluid img-position img-carousel col-12 col-sm-12 col-md-12 col-lg-12" alt="paws" /> </a>
+			        <div className="carousel-caption d-md-block col-8 col-sm-8 col-md-8 col-lg-8">
 			          <h4 className= "text-center">Paws</h4>
 			          <p className="paws-color text-center">Filling a form about your pet, include a picture in order to find it. </p>
 			          <p className="paws-color text-center">TOOLS: React.js, Bootstrap, Firebase</p>
 			        </div>
 			      </div>
-			      <div className="carousel-item col-lg-12" data-interval="3000">
+			      <div className="carousel-item " >
 			      	<a target="_blank" href="https://maribel-arac.github.io/GDL002-burger-queen/">
-			        <img src={seafood} className="d-block w-100 img-fluid col-lg-8" alt="seafood" /> </a>
-			        <div className="carousel-caption d-md-block col-lg-8">
-			          <h5 className="seafood-color text-center ">Los Cotoyos</h5>
+			        <img src={seafood} className="d-block w-100 img-fluid img-carousel col-12 col-sm-12 col-md-12 col-lg-12 " alt="seafood" /> </a>
+			        <div className="carousel-caption d-md-block col-8 col-sm-8 col-md-8 col-lg-8">
+			          <h4 className="seafood-color text-center ">Los Cotoyos</h4>
 			          <p className="seafood-color text-center">Taking orders from two menus, deleting products and showing client's summary</p>
 			          <p className="seafood-color text-center">TOOLS: React.js, Bootstrap, Firebase</p>
 			        </div>
 			      </div>
-			      <div className="carousel-item col-lg-12" data-interval="3000">
+			      <div className="carousel-item " >
 			      	<a target="_blank" href="https://maribel-arac.github.io/GDL002-data-lovers/src/" >
-			        <img src={pokemon} className="d-block w-100 img-fluid col-lg-8" alt="pokemon" /> </a>
-			        <div className="carousel-caption d-md-block">
-			          <h5 className="pokemon-color text-center">PokeHack</h5>
+			        <img src={pokemon} className="d-block w-100 img-fluid img-carousel col-12 col-sm-12 col-md-12 col-lg-12 " alt="pokemon" /> </a>
+			        <div className="carousel-caption d-md-block col-8 col-sm-8 col-md-8 col-lg-8">
+			          <h4 className="pokemon-color text-center">PokeHack</h4>
 			          <p className=" pokemon-color text-center">151 Pokemon sorted alphabetically and get to know their basic information, such as: name, type & weakenesses</p>
 			          <p className=" pokemon-color text-center">TOOLS: Javascript, CSS3, HTML5</p>
 			        </div>
