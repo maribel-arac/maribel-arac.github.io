@@ -1,5 +1,5 @@
 .contactBorder{
-	background-color: #42A5F5;
+	background-color: white;
 	height: 200px;
 }
 
@@ -20,12 +20,12 @@
  	}
 
  	.content {
- 		font-size: 11px;
+ 		font-size: 12px;
  		padding-top: 0;
  	}
 
  	.logo-btn {
- 		width: 20px;
- 		height: 20px;
+ 		width: 35px ;
+ 		height: 35px;
  	}
  }

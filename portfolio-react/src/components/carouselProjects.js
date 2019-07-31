@@ -19,9 +19,9 @@ const CarouselProjects = () => {
 			      <div className="carousel-item active " >
 			      	<a target="_blank" href="https://maribel-arac.github.io/paws-react/#/" >
 			        <img src={paws} className="d-block w-100  img-fluid img-position img-carousel col-12 col-sm-12 col-md-12 col-lg-12" alt="paws" /> </a>
-			        <div className="carousel-caption d-md-block col-8 col-sm-8 col-md-8 col-lg-8">
+			        <div className="carousel-caption d-md-block col-8 col-sm-8 col-md-8 col-lg-8 carousel-text">
 			          <h4 className= "text-center">Paws</h4>
-			          <p className="paws-color text-center">Filling a form about your pet, include a picture in order to find it. </p>
+			          <p className="paws-color text-center">A social network to find your pet. </p>
 			          <p className="paws-color text-center">TOOLS: React.js, Bootstrap, Firebase</p>
 			        </div>
 			      </div>
@@ -30,7 +30,7 @@ const CarouselProjects = () => {
 			        <img src={seafood} className="d-block w-100 img-fluid img-carousel col-12 col-sm-12 col-md-12 col-lg-12 " alt="seafood" /> </a>
 			        <div className="carousel-caption d-md-block col-8 col-sm-8 col-md-8 col-lg-8">
 			          <h4 className="seafood-color text-center ">Los Cotoyos</h4>
-			          <p className="seafood-color text-center">Taking orders from two menus, deleting products and showing client's summary</p>
+			          <p className="seafood-color text-center">Taking orders, deleting products and showing client's summary</p>
 			          <p className="seafood-color text-center">TOOLS: React.js, Bootstrap, Firebase</p>
 			        </div>
 			      </div>
@@ -39,7 +39,7 @@ const CarouselProjects = () => {
 			        <img src={pokemon} className="d-block w-100 img-fluid img-carousel col-12 col-sm-12 col-md-12 col-lg-12 " alt="pokemon" /> </a>
 			        <div className="carousel-caption d-md-block col-8 col-sm-8 col-md-8 col-lg-8">
 			          <h4 className="pokemon-color text-center">PokeHack</h4>
-			          <p className=" pokemon-color text-center">151 Pokemon sorted alphabetically and get to know their basic information, such as: name, type & weakenesses</p>
+			          <p className=" pokemon-color text-center">151 Pokemon sorted by type & alphabetically</p>
 			          <p className=" pokemon-color text-center">TOOLS: Javascript, CSS3, HTML5</p>
 			        </div>
 			      </div>
